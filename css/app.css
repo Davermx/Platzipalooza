@@ -1,0 +1,182 @@
+body{
+	background-color: black; 
+
+	
+}
+
+h1,h2,h3,h4,h5 button input[type="submit"]{
+	font-family: 'bree serif', serif;
+
+}
+
+#social-container {
+	background-color: #f7f9fa; 
+}
+
+#logo-container .callout {
+background-color: #ee3f54;
+color: white; 
+margin-bottom: 0;
+
+}
+
+#menu-container{
+	background-color: #f7f9fa;
+
+}
+#submenu-container{
+	border: 0;
+}
+
+#menu-container li a{
+	color: #3d464d; 
+	font-family: 'bree serif', serif;
+	text-transform: uppercase;
+}
+
+#menu-container li a:hover
+#submenu-container li a:hover {
+	color: #FF5733; 
+
+
+}
+
+#submenu-container li a {
+background-color: #848484;
+color:white;
+}
+
+#tickets-action .callout{
+	background:#5e7eb7;
+	color: white;
+	margin-bottom: 0;
+}
+
+#tickets-action .callout button{
+color: white;
+border: 2px solid white;
+}
+
+#lineup-container{
+	padding: 1em 0;
+}
+
+#lineup-container,
+#lineup-container .tabs-panel,
+#lineup-container .tabs,
+#lineup-container .tabs .tabs-title,
+#lineup-container .tabs .tabs-title.is-active a {
+	background-color: #ccff00;
+	color: black;
+	margin: 0;
+	
+	border:0;
+	text-transform: uppercase;
+	font-family: 'bree serif', serif;
+}
+
+.tabs-content{
+	border: 0;
+}
+
+#lineup-container .tabs .tabs-title	a {
+	font-style: 18px;
+	color:#343434;
+
+
+
+}
+
+#lineup-container .tabs .tabs-title	a:hover {
+color: #ff5733;
+background-color: #ccff00;
+
+}	
+
+.tabs-title{
+	display: inline-block;
+	float: none;
+}
+
+#lineup-container .orbit-container {
+	margin-bottom: 1em;
+}
+
+#lineup-container .column:nth-child(odd) figcaption {
+	text-align: right;
+}
+
+#tickets-container {
+	padding: 1em 0;
+	background-color: #f7f9fa;
+}
+
+.pricing-table {
+border: 1px solid #007ee5;
+font-family: 'Catamaran', cursive;
+}
+
+.pricing-table li,
+.pricing-table li.description {
+	font-size: 18px;
+}
+
+.pricing-table li.price,
+.pricing-table li.title {
+	font-size: 40px;
+}
+
+.pricing-table a.button {
+	font-family: 'bree serif', serif;
+}
+
+#info-container{
+background-color: #5e7eb7;
+color: white;
+padding: 1em 0;
+}
+
+#info-container .info-map iframe {
+	width: 100%;
+}
+
+#suscribete-container{
+	background-color: #545454;
+	color:white;
+	padding: 1em 0;
+}
+
+
+#suscribete-container h4 small{
+color:#ccff00;
+}
+
+#suscribete-container .error-container {
+font-family: 'bree serif', serif;
+
+}
+
+.is-invalid-input:not(:focus){
+background-color: #f7f9fa;
+border-color: #f7f9fa;
+}
+
+.data-sticky {
+width: 100%;
+z-index: 100;
+}
+
+#offcanvas {
+	background-color: black;
+	color: white;
+	font-family: 'Bree serif',serif;
+
+}
+
+#offcanvas .is-drilldown-submenu-parent > a::after {
+	border-color: transparent transparent transparent white;
+}
+
+#offcanvas .js-drilldown-back > a::before {
+	border-color: transparent white transparent transparent;
+}
